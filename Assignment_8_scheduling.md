@@ -13,3 +13,9 @@ i/o procesess always have always the highest priority, so that a pressed key get
 why? because if a cpu bound process takes longer than one quanta its priority gets lower, but an i/o process needs to have always the same priority
 
 #4
+Σ Ci/Pi <= 1
+35 / 50 + 20 / 100 + 10 / 200 + $x$ / 250 <= 1
+0,7 + 0,2 + 0,05 + $x$ / 250 <= 1
+0,95 + $x$ / 250 <= 1
+$x$ / 250 <= 0,05
+$x$ <= 12,5
